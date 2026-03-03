@@ -12,17 +12,18 @@
 
 Next level of ComfyUI image collection organization.
 
-![ComfyWorkbench showcase image](screenshots/diff-overlay.png)
+<img src="screenshots/diff-overlay.png" alt="ComfyWorkbench showcase image" width="720">
 
-## The tool you did not know you needed when generating many images in ComfyUI. (not kidding)
+## The tool you did not know you needed when working with many generated images in ComfyUI.
 
 - Queued up 200+ image generations and not sure what changed between the good and bad ones afterwards?
 - Want to delete, rename, sort, and compare without losing track?
+- Trying to find a specific image based on its prompt?
 - Scrolling forever just to clean up output folders?
 
 Then ComfyWorkbench is built for you!
 
-## Core features (all included in Free)
+## Core features (all Free!)
 
 ### Workflow review and diffing
 
@@ -31,18 +32,18 @@ Then ComfyWorkbench is built for you!
 - Diff Overlay: see model, prompt differences between successive images at a glance.
 - LoRA values panel: easily see and compare LoRA settings between images.
 
-![Marked new images and Workflow insights](screenshots/base-and-new_hint.png)
-![LoRA values panel](screenshots/lora-values_hint.png)
-![Diff overlay](screenshots/diff-zoomed.png)
+<img src="screenshots/base-and-new_hint.png" alt="Marked new images and Workflow insights" width="400"  height="205">
+<img src="screenshots/lora-values_hint.png" alt="LoRA values panel" width="400" height="205">
+<img src="screenshots/diff-zoomed.png" alt="Diff overlay" width="400">
 
 ### Cleanup and organization
 
 - Fast delete flow: clear weak generations quickly.
-- Accident-safe multi-selection: never lose your selection again with an accidental misclick, including undo/redo support.
+- Accident-safe multi-selection: never lose your selection again with an accidental misclick, including undo/redo your previous selections.
 - Rename many files at once: re-organize your images, even supporting prefix or regex patterns.
 
-![Select and Delete](screenshots/organize-mode.png)
-![Advanced Batch Rename](screenshots/rename.png)
+<img src="screenshots/organize-mode.png" alt="Select and Delete" width="400" height="205">
+<img src="screenshots/rename.png" alt="Advanced Batch Rename" width="400" height="205">
 
 ### Search, metadata, and workflow handling
 
@@ -52,37 +53,41 @@ Then ComfyWorkbench is built for you!
 - Drag and drop images directly from ComfyWorkbench into ComfyUI, a new folder, or other apps.
 - Designed to handle large amounts of images (tested with 15k+).
 - Manage multiple locations without loosing your progress.
-- Supports workflow extraction for: PNG, WEBP. Organization features support PNG, JPG, JPEG, BMP, GIF, TIF/TIFF, ICO, and WDP/JXR/HDP.
+- Supports workflow extraction for: PNG, WEBP. Organization features support PNG, WEBP, JPG, JPEG, BMP, GIF, TIF/TIFF, ICO, and WDP/JXR/HDP.
 
-![Automatic groups](screenshots/auto-groups.png)
-![Full metadata](screenshots/full-meta.png)
-![Custom Rules](screenshots/custom-rules.png)
-![Keybind settings](screenshots/keybinds.png)
+<img src="screenshots/auto-groups.png" alt="Automatic groups" width="400">
+<img src="screenshots/full-meta.png" alt="Full metadata" width="400" height="205">
+<img src="screenshots/custom-rules.png" alt="Custom Rules" width="400" height="300">
+<img src="screenshots/keybinds.png" alt="Keybind settings" width="400" height="300">
 
-## Compare mode
-
-Compare candidates side-by-side and make faster decisions when refining images.
-
-![Compare mode](screenshots/compare-mode_hints.png)
+<br>
+<br>
+<br>
 
 ## Full version (one-time payment, lifetime unlock - including updates)
 
 - Advanced search (full-text ComfyUI workflow search and tag search).
-- Refine images by directly comparing them to a Base-image.
-- Pop-out images into picture frames.
+- Compare mode: Refine images by directly comparing them to a Base-image.
+- Freely Pop-out images into picture frames (with slideshow support).
 - Subfolder support.
 - Tag your images.
 - Favorite filename groups and tag groups.
 - One-click move to Final folder.
 - Adjustable slideshow timing.
-- Buys us more coffee!
+- Buys us more coffee! ☕
 - Priority bug-fix and feature-request consideration.
 
-Always try the Free Edition first to make sure ComfyWorkbench is fully compatible with your machine and workflows.
+**Always try the Free Edition first to make sure ComfyWorkbench is fully compatible with your machine and workflows!**
 
-![Workflow search](screenshots/search-by-meta.png)
-![Tags](screenshots/tags.png)
-![Picture frames](screenshots/picture-frame.png)
+<img src="screenshots/search-by-meta.png" alt="Workflow search" width="400" height="205">
+<img src="screenshots/picture-frame.png" alt="Picture frames" width="400"  height="205">
+<img src="screenshots/tags.png" alt="Tags" width="400">
+
+### Compare mode (Full version only)
+
+Compare candidates side-by-side and make faster decisions when refining images.
+
+<img src="screenshots/compare-mode_hints.png" alt="Compare mode" width="400">
 
 ## 100% Local and Private
 
@@ -103,6 +108,6 @@ Note: \* drag and drop naturally exposes the full path of the dragged file to th
 - Windows 10 or 11.
 - 8 GB RAM minimum (lower amounts not fully tested).
 
-## Try it
+## Just try it!
 
-If your ComfyUI output folder is becoming chaos, start with ComfyWorkbench Free. Point it to your folder, review with Diff Overlay, and keep only the images that matter.
+Start with the free version of ComfyWorkbench and see for yourself.
