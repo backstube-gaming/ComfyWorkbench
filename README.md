@@ -111,3 +111,5 @@ Note: \* drag and drop naturally exposes the full path of the dragged file to th
 ## Just try it!
 
 Start with the free version of ComfyWorkbench and see for yourself.
+
+ComfyWorkbench © Backstube-Gaming 2026, all rights reserved.
