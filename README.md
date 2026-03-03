@@ -1,5 +1,15 @@
 # COMFYWORKBENCH (BETA)
 
+## Submit bug reports and feature requests here:
+
+[Issue Tracker](https://github.com/backstube-gaming/ComfyWorkbench/issues)
+
+  <br>                                                                                                                                                                                               
+  <br>                                                                                                                                                                                               
+  <br>
+
+# Main Features
+
 Next level of ComfyUI image collection organization.
 
 ![ComfyWorkbench showcase image](screenshots/diff-overlay.png)
