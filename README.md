@@ -11,6 +11,7 @@
 # Main Features
 
 Next level of ComfyUI image collection organization.
+(for now only for Windows)
 
 <img src="screenshots/diff-overlay.png" alt="ComfyWorkbench showcase image" width="720">
 
@@ -113,3 +114,44 @@ Note: \* drag and drop naturally exposes the full path of the dragged file to th
 Start with the free version of ComfyWorkbench and see for yourself.
 
 ComfyWorkbench © Backstube-Gaming 2026, all rights reserved.
+
+# FAQ
+
+## Is the full/paid version of ComfyWorkbench an abo?
+
+No! You just buy the full version once and it belongs to you forever, including any future updates.
+
+## Why is ComfyWorkbench showing up as untrusted?
+
+ComfyWorkbench is not backed by a large organization and aquiring a trusted certificate is quite expensive.
+The only reason it shows up as "untrusted" is that Windows does not know us as a verified publisher.
+
+## Why is ComfyWorkbench Windows only for now?
+
+We are working on making ComfyWorkbench usable on MacOS and Debian/Ubuntu as well, just like ComfyUI does, however, we have not found a good approach that fulfills all our requirements yet.
+
+## Is ComfyWorkbench private?
+
+Yes. The only time ComfyWorkbench connects to the internet is to check for updates directly with itch.io. That can also be turned off in the settings.
+No data is ever collected about the user, or usage. (The download/payment process on itch.io may collect some personal data, but that is never transfered to or used by us.)
+
+## Do you support custom node XXX?
+
+Yes. Almost any custom node works, if you add a custom diff extraction for it (under Settings > Diff Extractions).
+We will try to support any widely used node out-of-the-box in the future. If something does not work, you can request support using [Issue Tracker](https://github.com/backstube-gaming/ComfyWorkbench/issues)
+
+## What is the GDRP or NDA bound work you mentioned?
+
+Some professionals may use ComfyUI in their daily work. A Non-Disclosure Agreement might apply when creating advertisements for not-yet-released products.
+GDRP is a european personal data compliance regulation. For both of these use cases, you should be fine without in ComfyWorkbench without doing anything!
+If you need to make absolutely sure or are working with extra sensetive cases, see this guide: [Compliance/Privacy guid](compliance-guide.md)
+
+## What happens if I lose a manual password for a location?
+
+Not much! Just delete the location and add the path again.
+You will only lose any tags you have put on images (full version) and some location specific settings, nothing else.
+The encryption is mostly used to encrypt thumbnails and workflow data, which is automatically re-generated the next time you start ComfyWorkbench.
+
+## Does ComfyWorkbench prevent opening a location with a manual password?
+
+No. It cannot be opened in ComfyWorkbench, making settings and tags inaccessible, but of course its still possible to use Windows to open the folder itself.
