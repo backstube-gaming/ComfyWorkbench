@@ -53,8 +53,8 @@ Then ComfyWorkbench is built for you!
 - Customizable keybinds: rebind keyboard shortcuts to your preference.
 - Drag and drop images directly from ComfyWorkbench into ComfyUI, a new folder, or other apps.
 - Designed to handle large amounts of images (tested with 15k+).
-- Manage multiple locations without loosing your progress.
-- Supports workflow extraction for: PNG, WEBP. Organization features support PNG, WEBP, JPG, JPEG, BMP, GIF, TIF/TIFF, ICO, and WDP/JXR/HDP.
+- Manage multiple locations without losing your progress.
+- Supports workflow extraction for: PNG, WEBP. Organization features support PNG, WEBP, JPG, JPEG, BMP, GIF, ICO, and WBMP.
 
 <img src="screenshots/auto-groups.png" alt="Automatic groups" width="400">
 <img src="screenshots/full-meta.png" alt="Full metadata" width="400" height="205">
@@ -117,14 +117,15 @@ ComfyWorkbench © Backstube-Gaming 2026, all rights reserved.
 
 # FAQ
 
-## Is the full/paid version of ComfyWorkbench an abo?
+## Is the full/paid version of ComfyWorkbench a subscription?
 
 No! You just buy the full version once and it belongs to you forever, including any future updates.
 
-## Why is ComfyWorkbench showing up as untrusted?
+## Why is ComfyWorkbench showing up as untrusted/unrecognized?
 
-ComfyWorkbench is not backed by a large organization and aquiring a trusted certificate is quite expensive.
+ComfyWorkbench is not backed by a large organization and acquiring a trusted certificate is quite expensive.
 The only reason it shows up as "untrusted" is that Windows does not know us as a verified publisher.
+If you trust our own certificate once, all updates should not show up as untrusted again.
 
 ## Why is ComfyWorkbench Windows only for now?
 
@@ -133,18 +134,24 @@ We are working on making ComfyWorkbench usable on MacOS and Debian/Ubuntu as wel
 ## Is ComfyWorkbench private?
 
 Yes. The only time ComfyWorkbench connects to the internet is to check for updates directly with itch.io. That can also be turned off in the settings.
-No data is ever collected about the user, or usage. (The download/payment process on itch.io may collect some personal data, but that is never transfered to or used by us.)
+No data is ever collected about the user, or usage. (The download/payment process on itch.io may collect some personal data, but that is never transferred to or used by us.)
 
 ## Do you support custom node XXX?
 
 Yes. Almost any custom node works, if you add a custom diff extraction for it (under Settings > Diff Extractions).
 We will try to support any widely used node out-of-the-box in the future. If something does not work, you can request support using [Issue Tracker](https://github.com/backstube-gaming/ComfyWorkbench/issues)
 
-## What is the GDRP or NDA bound work you mentioned?
+## Can I use ComfyWorkbench to organize non-ComfyUI image collections?
+
+Yes. ComfyWorkbench's organizational features (delete, rename, move) work with many kinds of image files! (PNG, WEBP, JPG, JPEG, BMP, GIF, ICO, and WBMP)
+The ComfyUI workflow features like diff-overlay and details inspections will just be empty.
+Video formats and animated GIF are not supported though.
+
+## What is the GDPR or NDA bound work you mentioned?
 
 Some professionals may use ComfyUI in their daily work. A Non-Disclosure Agreement might apply when creating advertisements for not-yet-released products.
-GDRP is a european personal data compliance regulation. For both of these use cases, you should be fine without in ComfyWorkbench without doing anything!
-If you need to make absolutely sure or are working with extra sensetive cases, see this guide: [Compliance/Privacy guid](compliance-guide.md)
+GDPR is a European personal data compliance regulation. For both of these use cases, you should be fine without in ComfyWorkbench without doing anything!
+If you need to make absolutely sure or are working with extra sensitive cases, see this guide: [Compliance/Privacy guide](compliance-guide.md)
 
 ## What happens if I lose a manual password for a location?
 
@@ -154,4 +161,4 @@ The encryption is mostly used to encrypt thumbnails and workflow data, which is 
 
 ## Does ComfyWorkbench prevent opening a location with a manual password?
 
-No. It cannot be opened in ComfyWorkbench, making settings and tags inaccessible, but of course its still possible to use Windows to open the folder itself.
+No. It cannot be opened in ComfyWorkbench, making settings and tags inaccessible, but of course it is still possible to use Windows to open the folder itself.
